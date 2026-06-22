@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+}
+
+.stat-value {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.125rem 0.625rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.badge-green { background: #064e3b; color: #6ee7b7; }
+.badge-blue { background: #1e3a5f; color: #93c5fd; }
+.badge-yellow { background: #451a03; color: #fcd34d; }
+.badge-red { background: #450a0a; color: #fca5a5; }
+.badge-purple { background: #3b0764; color: #d8b4fe; }
+.badge-gray { background: #1f2937; color: #9ca3af; }
